@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/bootstrap.css">
+    <title>Criptomoedas</title>
+</head>
+
+<body>
+    <div class="pagian">
+        <div class="container-fluid m-0 p-0" id="pagina">
+            <header>
+                <!--nav é excusivo para links e navegações específicas-->
+                <nav class="navbar navbar-expand-sm bg-white py-3">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="navbar-item"><img src="../imagens/ciclo.png" alt="logohome" width="60px"
+                                    height="100%"></li>
+                            <h1 class="text-dark">Ciclo do Dinheiro</h1>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="navbar-item"><a class="nav-link" style="color: blueviolet;"
+                                    href="#">Criptomoedas</a>
+                            </li>
+                            <li class="navbar-item"><a class="nav-link text-dark" href="home.html">Home</a></li>
+                            <li class="navbar-item"><a class="nav-link text-dark" href="bolsa.html">Bolsa de valores</a></li>
+                            <li class="navbar-item"><a class="nav-link text-dark" href="imoveis.html">Imóveis</a></li>
+                            <li class="navbar-item"><a class="nav-link text-dark" href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <header>
+                    <main class="container-fluid m-0 p-0"></main>
+                    <!--começo slider-->
+                    <div class="container-fluid my-3 m-0 my-0 p-0" id="slider">
+                        <!--CARROSEL-->
+                        <div class="carousel slide" id="demo" data-bs-ride="corousel">
+                            <!--indicadores-->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            </div>
+                            <!--slide show-->
+                            <div class="carousel-inner" style="height: 750px;">
+                                <div class="carousel-item active">
+                                    <img src="../imagens/btc1.png" alt="" class="d-block" style="width: 100%;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens/btcilustra.png" alt="" class="d-block" style="width: 100%; height: 800px;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../imagens/wbtc1.png" alt="" class="d-block" style="width: 120%; height: auto; margin: 10%">
+                                </div>
+                            </div>
+                            <!--controles esquerda e direita-->
+                            <button type="button" class="carousel-control-prev" data-bs-target="#demo"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button type="button" class="carousel-control-next" data-bs-target="#demo"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <!--fim slider-->
+                </header>
+                <main></main>
+                <!--aqui começa o pe da página-->
+                <footer class="page-footer">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Siga-nos no:</font>
+                        <div class=" d-flex align-items-baseline">
+                            <a href="https://instabio.cc/ciclododinheiro" target="_blank"
+                                class="d-flex align-items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" class="mr-1 d-block" fill="none"
+                                    xmlns="">
+                                    <path
+                                        d="M20.9471 8.305C20.937 7.54763 20.7952 6.79778 20.5281 6.089C20.2964 5.49115 19.9426 4.9482 19.4892 4.49483C19.0359 4.04147 18.4929 3.68765 17.8951 3.456C17.1954 3.19336 16.4562 3.05134 15.7091 3.036C14.7471 2.993 14.4421 2.981 12.0001 2.981C9.55807 2.981 9.24507 2.981 8.29007 3.036C7.54323 3.05146 6.80442 3.19347 6.10507 3.456C5.50713 3.68749 4.96409 4.04125 4.5107 4.49464C4.05732 4.94802 3.70356 5.49106 3.47207 6.089C3.2089 6.78814 3.06719 7.52711 3.05307 8.274C3.01007 9.237 2.99707 9.542 2.99707 11.984C2.99707 14.426 2.99707 14.738 3.05307 15.694C3.06807 16.442 3.20907 17.18 3.47207 17.881C3.70395 18.4788 4.05797 19.0216 4.51151 19.4748C4.96505 19.928 5.50813 20.2816 6.10607 20.513C6.8035 20.7862 7.54244 20.9384 8.29107 20.963C9.25407 21.006 9.55907 21.019 12.0011 21.019C14.4431 21.019 14.7561 21.019 15.7111 20.963C16.4582 20.9483 17.1974 20.8066 17.8971 20.544C18.4948 20.3121 19.0376 19.9582 19.4909 19.5048C19.9442 19.0515 20.2982 18.5087 20.5301 17.911C20.7931 17.211 20.9341 16.473 20.9491 15.724C20.9921 14.762 21.0051 14.457 21.0051 12.014C21.0031 9.572 21.0031 9.262 20.9471 8.305ZM11.9941 16.602C9.44007 16.602 7.37107 14.533 7.37107 11.979C7.37107 9.425 9.44007 7.356 11.9941 7.356C13.2202 7.356 14.396 7.84307 15.263 8.71005C16.13 9.57703 16.6171 10.7529 16.6171 11.979C16.6171 13.2051 16.13 14.381 15.263 15.248C14.396 16.1149 13.2202 16.602 11.9941 16.602ZM16.8011 8.263C16.2041 8.263 15.7231 7.781 15.7231 7.185C15.7231 7.0435 15.7509 6.90339 15.8051 6.77266C15.8592 6.64193 15.9386 6.52315 16.0387 6.4231C16.1387 6.32304 16.2575 6.24367 16.3882 6.18952C16.519 6.13537 16.6591 6.1075 16.8006 6.1075C16.9421 6.1075 17.0822 6.13537 17.2129 6.18952C17.3436 6.24367 17.4624 6.32304 17.5625 6.4231C17.6625 6.52315 17.7419 6.64193 17.7961 6.77266C17.8502 6.90339 17.8781 7.0435 17.8781 7.185C17.8781 7.781 17.3961 8.263 16.8011 8.263Z"
+                                        fill="#0D183A"></path>
+                                    <path
+                                        d="M11.9942 14.982C13.6527 14.982 14.9972 13.6375 14.9972 11.979C14.9972 10.3205 13.6527 8.976 11.9942 8.976C10.3357 8.976 8.99121 10.3205 8.99121 11.979C8.99121 13.6375 10.3357 14.982 11.9942 14.982Z"
+                                        fill="#0D183A"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="copyright-row">
+                            <div class="d-flex flex-wrap justify-content-between">
+                                <p>Copyright © Ciclododinheiro. Todos os direitos reservados</p>
+                                <ul
+                                    class="list-unstyled mb-0 d-flex align-items-center flex-wrap justify-content-center">
+                                    <li><a href="#">Termos &amp; Condições</a></li>
+                                    <li class="px-2">•</li>
+                                    <li><a href="#">Politica de Privacidade</a></li>
+                                </ul>
+                            </div>
+                        </div>
+        </div>
+        </footer><script src="../js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

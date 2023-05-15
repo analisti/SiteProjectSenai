@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/login.css">
+    <title>Página de Login</title>
+</head>
+
+<body>
+    <div id="pagina">
+        <header>
+            <h1>CICLO DO DINHEIRO</h1>
+            <div id="insta"></div>
+            <div class="fab" ontouchstart="">
+                <button class="main">
+                </button>
+                <ul>
+                    <li>
+                        <label for="opcao1">Ciclo do Dinheiro</label>
+                        <button id="opcao1">
+                            ⎈
+                        </button>
+                    <li>
+                        <label for="opcao2">Cadastre-se</label>
+                        <button id="opcao2">
+                            ⎗
+                        </button>
+                    </li>
+                    <li>
+                        <label for="opcao3">Fale conosco</label>
+                        <button id="opcao3">
+                            ☏
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div id="login">
+                <form>
+                    <h2>Login</h2>
+                    <p>Email</p>
+                    <input type="email" id="email" x-moz-errormessage="Por favor, especifique um endereço de e-mail.">
+                    <p>Senha</p>
+                    <input type="password" id="senha" x-moz-errormessage="Por favor, especifique uma senha.">
+                    <button type="button" onclick="verificarFormulario()">Entrar</button>
+                    <p>Esqueceu sua senha? <a href="../paginas/senha.html" target="_blank">Clique aqui</a></p>
+                    <p>Não possui uma conta? <a href="../paginas/cadastro.html" target="_blank">Crie uma!</a></p>
+                </form>
+        </main>
+        <div id="conteudo"></div>
+        <footer>
+    </div>
+    </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
